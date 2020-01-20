@@ -1,0 +1,50 @@
+Code
+for x as integer = 0 to 2
+   print "first x = ";x
+   for x as long = 0 to 2
+      print "second x = ";x
+      for x as double = 0 to 2
+         print "third x = ";x
+      next
+   next
+next
+Result
+first x =  0
+second x =  0
+third x =  0
+third x =  1
+third x =  2
+second x =  1
+third x =  0
+third x =  1
+third x =  2
+second x =  2
+third x =  0
+third x =  1
+third x =  2
+first x =  1
+second x =  0
+third x =  0
+third x =  1
+third x =  2
+second x =  1
+third x =  0
+third x =  1
+third x =  2
+second x =  2
+third x =  0
+third x =  1
+third x =  2
+first x =  2
+second x =  0
+third x =  0
+third x =  1
+third x =  2
+second x =  1
+third x =  0
+third x =  1
+third x =  2
+second x =  2
+third x =  0
+third x =  1
+third x =  2

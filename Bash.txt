@@ -1,0 +1,10 @@
+Code
+for i in {0..3}
+do
+  echo "Number: $i"
+done
+Result
+Number: 0
+Number: 1
+Number: 2
+Number: 3

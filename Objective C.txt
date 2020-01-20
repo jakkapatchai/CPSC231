@@ -1,0 +1,56 @@
+Code
+#import <Foundation/Foundation.h>
+
+int main () {
+   int a = 10;
+   do {
+      if( a == 15)
+      {
+        a = a + 1;
+         continue;
+      }
+      NSLog(@"value of a: %d\n", a);
+      a++;
+     
+   } while( a < 20 );
+   return 0;
+}
+Result
+2020-01-20 16:43:07.501 jdoodle[23:23] autorelease called without pool for object (0x561eeb4ae9d0) of class GSMutableString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c2230) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4b7c50) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4b8530) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4b0ba0) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb544560) of class GSAttrDictionary in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4b1050) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb5929c0) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4e7e10) of class GSAttrDictionary in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.517 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c14a0) of class GSCBufferString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4d2440) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c1510) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c44d0) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c7810) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4cb870) of class GSDictionaryKeyEnumerator in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4beb80) of class GSDictionaryKeyEnumerator in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c7750) of class GSMutableDictionary in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.518 jdoodle[23:23] autorelease called without pool for object (0x561eeb4bf530) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4cdbf0) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4bf0b0) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4ecd60) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4bf150) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c2280) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4befd0) of class GSDictionaryKeyEnumerator in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb58f630) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4bf100) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4bf060) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb58f680) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4d2490) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c77c0) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4ced60) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4bf010) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb58f7a0) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4d13e0) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4d1420) of class GSCInlineString in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4d1460) of class GSDictionaryKeyEnumerator in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4c96c0) of class GSMutableDictionary in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
+2020-01-20 16:43:07.519 jdoodle[23:23] autorelease called without pool for object (0x561eeb4beb10) of class GSAutoreleasedMemory in thread <NSThread: 0x561eeb3fb290>{name = (null), num = 23}
